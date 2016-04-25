@@ -1,0 +1,16 @@
+{
+  "name": "google translate in chrome extension",
+  "description": "一个快捷的google翻译chrome插件，之所以没有做页内翻译，是因为我懒",
+  "version": "0.0.1",
+  "incognito": "split",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "256": "icon/256x256.png"
+  },
+  "manifest_version": 2
+}
